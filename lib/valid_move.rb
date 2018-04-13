@@ -4,8 +4,8 @@ def valid_move?(board, index)
       false
     elsif board[index] == 0-8 && board[index] == " " || board[index] == "" || board[index] == nil
       true
-    else board[index] == <9
-      true
+    else board[index] == >9
+      false
     end
   end
 end 
