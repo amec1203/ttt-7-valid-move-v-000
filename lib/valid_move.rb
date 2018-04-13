@@ -4,7 +4,6 @@ def valid_move?(board, index.between?(0,8)
         false
       else board[index] == board[index] == " " || board[index] == "" || board[index] == nil
         true
-      end
     end
   end
 
