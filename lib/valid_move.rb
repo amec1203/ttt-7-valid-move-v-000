@@ -1,5 +1,4 @@
 def valid_move?(board, index)
-  false
   def position_taken?(board, index)
     if board[index] == "X" || board[index] == "O"
       false
